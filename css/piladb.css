@@ -98,7 +98,6 @@ a.clean {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-color: #D9F8FA;
 }
 
 @media (max-width: 767px) {
@@ -138,4 +137,5 @@ a.clean {
 
 footer {
     padding: 100px 0;
+    background-color: #D9F8FA;
 }
