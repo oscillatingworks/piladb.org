@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lightweight RESTful database engine based on stack data structures" >
+    <meta name="keywords" content="open source, github, databases, database, stack, stacks, REST,
+    oscillating works, oscillating, oscillation, memory, piladb">
+    <meta name="author" content="Fernando Alvarez">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>piladb</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/piladb.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+		<img class="img-responsive center-block" src="img/piladb.png" alt="">
+	        <h4 class="lead">
+		    Stacks for the web. Push and pop <strong><span class="typed"></span></strong>, have access to the top elements always in constant time                         O(1).
+		    <br><br>
+		    <strong>piladb</strong> is fast, easy to deploy and maintain, lives in memory only, and understands REST.
+		    <br><br>
+		    Also, it is an open source project made with 💚.
+		    <br><br>
+		    <a class="clean" href="http://docs.piladb.org/getting_started/">Ready?</a>
+		    <br><br>
+	    </h4>
+	            <a href="https://github.com/fern4lvarez/piladb/releases/latest" class="btn btn-success btn-lg"><span class="fa fa-download"></span> Download</a>
+	            <a href="https://github.com/fern4lvarez/piladb" class="btn btn-success btn-lg"><span class="fa fa-github"></span> Code</a>
+		    <a href="http://docs.piladb.org" class="btn btn-success btn-lg"><span class="fa fa-book"></span> Docs</a>
+		    <a href="https://reddit.com/r/piladb" class="btn btn-success btn-lg"><span class="fa fa-bullhorn"></span> Ask</a>
+		    <a href="https://github.com/fern4lvarez/piladb/releases/latest" class="btn btn-success btn-lg"><span class="fa fa-legal"></span> License</a>
+        </div>
+    </header>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4 class="oswfont"><strong>≅oscillatingworks</strong>
+                    </h4>
+                    <p>We are a non-commercial organization
+		    <br>
+		    making lo-fi open source software,
+		    <br>
+		    based in
+                    <strong>Madrid</strong>.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:info@oscillating.works">info@oscillating.works</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://github.com/oscillatingworks" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/oscillatingw" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://blog.oscillating.works" target="_blank"><i class="fa fa-pencil fa-fw fa-2x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; ≅oscillatingworks 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Typed Cursor -->
+    <script src="js/typed.js"></script>
+    <script>
+        $(function(){
+	    $(".typed").typed({
+	        strings: ["strings", "numbers", "😍emoji😍", "booleans", "arrays", "JSON objects", "东西随机","עִברִית","العربية"],
+		loop: true,
+		typeSpeed: 100
+	    });
+	});
+    </script>
+
+    <!-- gist-embed -->
+    <script type="text/javascript" src="js/gist-embed.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
