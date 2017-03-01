@@ -64,6 +64,25 @@ body {
     font-size: 1em;
 }
 
+.btn-blink {
+  animation: blinker 1s linear infinite;
+  -moz-animation: blinker 1s linear infinite;
+  -webkit-animation: blinker 1s linear infinite;
+  -o-animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.75; }
+}
+
+@-moz-keyframes blinker {
+  50% { opacity: 0.75; }
+}
+
+@-webkit-keyframes blinker {
+  50% { opacity: 0.75; }
+}
+
 /* Custom Horizontal Rule */
 
 hr.small {
